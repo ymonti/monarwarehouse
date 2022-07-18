@@ -69,7 +69,11 @@ nav ul li a:hover{
 
 .hero{
     text-align: center;
-    padding-top: 52vh;  
+    padding-top: 52vh; 
+    display: flex; 
+    min-width: 100vh;
+    justify-content: center;
+    align-items: center;
 }
 
 .hero h1{
@@ -78,12 +82,9 @@ nav ul li a:hover{
     padding-bottom: 50vh;
 }
 
+
 #marca{
     font-family:monar;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-width: 100vh;
     font-size: 4em;
     font-weight: 500;
     cursor:none;
