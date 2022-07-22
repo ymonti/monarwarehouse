@@ -9,21 +9,22 @@
     <link rel="stylesheet" href="contacto.css">
     <title>MONARWAREHOUSE-CONTACTO</title>
 </head>
-<body>
-    <H1>Contacto</H1>
-    <h2>Escribinos</h2>
-    <form action="" method="post" enctype="text/plain">
-        <label for="nombre"> ingrese su nombre</label>
-        <input name="nombre" type="text" required placeholder="escribe tu nombre"><br>
-        <label for="apellido"> ingrese su apellido</label>
-        <input name="apellido" type="text" required placeholder="escribe tu apellido"><br>
-        <label for="correo"> ingrese su email</label>
-        <input name="correo" type="mail" required placeholder="escribe tu correo"><br>
-        <label for="comentarios">comentarios</label><br>
-        <textarea name="comentarios" id="" cols="30" rows="5"placeholder="escribe aqui tu comentario"></textarea><br>
-        <input type="button" value="enviar">
-        <input type="submit" value="enviar"g>
-      </form>
+    <body>
+        <div class="conta">
+            <h1> Contactanos! </h1>
+            <p>Dejanos tu consulta y nos ponemos en contacto</p>
+            <form action="mail.php" method="POSt">
+                <label for="Nombre">Nombre</label>
+                <input type="text" name="Nombre" id="Nombre">
+                <label for="email"> Email </label>
+                <input type="email" name="email" id="email">
+                <label for="asunto"> Asunto</label>
+                <input type="text" name="asunto" id="asunto">
+                <label for="mensaje">Mensaje</label>
+                <textarea name="mensaje" cols="30" rows="10"></textarea>
+                <input type="Enviar" value="enviar">
+            </form>
+        </div>
     <a href="./index.html"> Home</a>
     </body>
 </html>

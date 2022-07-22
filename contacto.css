@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:opsz,wght@9..144,700&display=swap');
+
+/*font-family: 'Barlow', sans-serif;
+font-family: 'Fraunces', serif;*/
+
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #515458;
+    text-align: center;
+}
+
+h1{
+    font-family:  'Barlow', sans-serif;
+    font-size: 53px;
+    color: white;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+p{
+    color: #d2d2d2;
+}
+
+p,
+input,
+textarea,
+label {
+    font-family: 'Fraunces', serif;
+
+}
+
+form{
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: left;
+    padding: 20px 0;
+}
+
+input,
+textarea,
+label{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    color: #b2b2b2;
+}
+
+input,
+textarea{
+    background-color: transparent;
+    border: 0;
+    border-bottom: 2px solid #b2b2b2;
+}
+
+input[type=submit]:hover{
+    background: #fff;
+    color: #515458;
+}
+
+input,
+textarea{
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+}
+
+input:focus,
+textarea:focus {
+    outline: 1px solid #b2b2b2;
+}
+
+a {
+    color: #b2b2b2;
+    font-size: italic;
+}
+
+a:hover{
+    color: #fff;
+}
