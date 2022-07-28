@@ -139,32 +139,34 @@ a:hover {
     transform: translateY(-10px);
     }
 }
-.deco {
+.steps {
     padding-top: 40px;
     padding-bottom: 40px;
 }
-.deco__section-thumbnail {
+.steps__section-thumbnail {
     height: 240px;
     object-fit: cover;
     margin: 0 auto;
 }
-.deco__content-width {
+
+.steps__content-width {
     max-width: 456px;
     margin: 0 auto;
 }
-.deco--background {
+.steps--background {
     background-color: #FEF8F9;
 }
-@media (min-width: 544px) {
-    .deco {
-    padding-top: 80px;
-    padding-bottom: 80px;
-    }
-}
 
-.deco__section-thumbnail {
+ @media (min-width: 544px) {
+    .steps {
+    padding-top: 80px;
+      padding-bottom: 80px;
+    }
+
+    .steps__section-thumbnail {
     height: auto;
     }
+}
 
 .footer .border-highlight {
     border-top: 1px solid var(--primary-color-highlight);
